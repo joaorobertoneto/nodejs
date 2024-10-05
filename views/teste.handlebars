@@ -7,7 +7,28 @@
     <title>Document</title>
 </head>
 <body>
-    Ola marilene
+   <h2> Adicione um empregado:</h2>
+
+    <form action="/" method="POST">
+
+    <label>Nome:</label><br>
+        <input type="text" name="nome"><br>
+    <label>Sálario:</label><br>
+        <input name="sal_bruto" type="number"><br>
+    <label>Departamento:</label><br>
+        <input type="radio" value="Administrativo" id="administrativo" name="departamento">
+            <label for="administrativo">Administrativo</label><br>
+        <input type="radio" value="Designer" id="designer" name="departamento">
+            <label for="designer">Designer</label><br>
+        <input type="radio" value="Contábil" id="contabil" name="departamento">
+            <label for="contabil">Contábil</label><br>
+        <input type="radio" value="Fábrica" id="fabrica" name="departamento">
+            <label for="fabrica">Fábrica</label><br>
+    </form>
+
+    <br>
+    <a href="http://localhost:3000/mostrar">mostre todos</a>
+    
     
 </body>
 </html>
