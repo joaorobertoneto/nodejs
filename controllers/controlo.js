@@ -8,7 +8,6 @@ exports.inserir = (req,res) =>
     {
         const dataE = {
             nome:req.body.nome,
-            sal_liquido:req.body.sal_liquido,
             departamento:req.body.departamento,
             sal_bruto:req.body.sal_bruto
         };

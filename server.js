@@ -17,5 +17,5 @@ app.engine('handlebars',handlebars_mod.engine({
 app.set('view engine','handlebars');
 app.use(rotas);
 app.listen(3000, ()=>{
-    console.log("ta rodando server eba!!!!")
+    console.log("ta rodando server no 3000 eba!!!!")
 })
